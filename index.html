@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/intl-tel-input-17.0.0/build/css/intlTelInput.css">
+    <title>Дом мечты</title>
+</head>
+
+<body>
+    <header>
+        <!--Modal-section-->
+        <div id="popup" class="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="" class="popup__close">&#10006</a>
+                    <div class="popup-cont-wrapper">
+                        <div class="contact-heading-wrapper">
+                            <p class="contact-heading">Оставить заявку</p>
+                        </div>
+                        <div class="form-wrapper">
+                            <p class="popup-wrapper_text">После подачи заявки с вами свяжется наш менеджер </p>
+                            <input class="popup-contact-form contact-form" type="tel" placeholder="Имя" name="" id="">
+                            <input class="popup-contact-form contact-form" type="tel" name="" id="phone">
+                            <input class="popup-contact-form contact-form mail-form" name="" placeholder="Почта" id="">
+                            <form class="form-rules" ... onsubmit="return checkForm(this);">
+                                <p class="rules-form-check"><input id="field_terms"
+                                        onchange="this.setCustomValidity(validity.valueMissing ? '! Подтвердите согласие на обработку персональных данных' : '');"
+                                        type="checkbox" required name="terms"> Соглашаюсь на <span>обработку
+                                        персональных
+                                        данных</span></p>
+                            </form>
+                            <a onclick="window.location.href='#second-popup'" type="submit"><button
+                                    class="popup-send-button" type="submit">отправить<img class="arrow-img"
+                                        src="/img/Group 2066.svg" alt=""></button> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!----->
+        <div id="second-popup" class="second-popup">
+            <div class="second-popup_body">
+                <div class="second-popup_content">
+                    <a href="" class="popup__close">&#10006</a>
+                    <div class="second-popup-cont-wrapper">
+                        <p class="second-popup_main-text">Благодарим за заявку</p>
+                        <hr>
+                        <p class="second-popup_text">
+                            Менеджер свяжется с вами в течении 15 минут
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="wrapper">
+                <div class="menu-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="/img/Лого симпл Хом.svg" alt="">
+                        <p class="logo-text">продукт компании<span class="logo-subtext">Лиис</span></p>
+                    </div>
+                    <nav class="nav">
+                        <ul class="nav-list">
+                            <li class="nav-item"><a href="" class="nav-link">О нас</a></li>
+                            <li class="nav-item"><a href="#popup" class="nav-link">Чем управляем</a></li>
+                            <li class="nav-item"><a href="" class="nav-link active-link">Как управляем</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Сценарии</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Наши объекты</a></li>
+                            <li class="nav-item"><a href="" class="nav-link">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <div class="msk-number">
+                        <p class="city-heading">Москва</p>
+                        <a class="city-link" href="tel:+7(812)313-24-53">+7(812)313-24-53</a>
+                    </div>
+                    <div class="sbp-number">
+                        <p class="city-heading">Санкт Петербург</p>
+                        <a class="city-link" href="tel:+7(812)313-24-53">+7(812)313-24-53</a>
+                    </div>
+                    <a onclick="window.location.href='#popup'" class="call-btn-wrapper" type="submit">Заказать
+                        звонок</a>
+                </div>
+            </div>
+            <div class="main-content-smart">
+                <div class="main-content-text">
+                    <h1 class="main-heading">Умный дом <br><span>премиум <br> класса</span></h1>
+                </div>
+                <section id="section02" class="demo">
+                    <a href="#experience-wrapper"><span></span></a>
+                </section>
+                <div class="logos-wrapper">
+                    <div class="logo-bottom-wrapper"><img src="/img/win.png" alt=""></div>
+                </div>
+                <div>
+                    <button type="submit" class="arrow-down"></button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="experience-wrapper" id="experience-wrapper">
+            <div class="objects-wrapper">
+                <div class="objects-text">
+                    <p class="smart-text">Умный дом увеличит престиж, комфорт, безопасность вашего дома </p>
+                    <div class="objects-link">
+                        <a class="watch-link" href="">посмотрите наши объекты<img class="arrow-img"
+                                src="/img/Group 2066.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="points-wrapper">
+                <div class="numbers-wrapper">
+                    <p class="numbers-text">330</p>
+                    <p class="plus-symbol">+</p>
+                    <p class="exp-text">Выполнили <br> объектов</p>
+                </div>
+                <div class="numbers-wrapper">
+                    <p class="numbers-text">1млн</p>
+                    <p class="plus-symbol">+</p>
+                    <p class="exp-text">Площади <br> автоматизировали</p>
+                </div>
+                <div class="numbers-wrapper">
+                    <p class="numbers-text">120</p>
+                    <p class="plus-symbol">+</p>
+                    <p class="exp-text">Клиентов остались <br> довольны</p>
+                </div>
+            </div>
+            <div class="exp-wrapper">
+                <h3 class="exp-heading">14 лет <br> опыта</h3>
+            </div>
+        </div>
+    </div>
+    <div class="contacts-wrapper">
+        <div class="wrapper">
+            <div class="c-wrapper">
+                <div class="price-wrapper">
+                    <h4 class="price-main-heading">Узнайте стоимость</h4>
+                    <p class="price-heading">Умного дома</p>
+                    <p class="price-subheading">Для вашего помещения</p>
+                </div>
+                <div class="house-img">
+                    <img src="/img/Vector 217.svg" alt="">
+                </div>
+                <div class="form-block">
+                    <div class="contact-heading-wrapper">
+                        <p class="contact-heading">Мы свяжемся с вами</p>
+                    </div>
+                    <div class="form-wrapper">
+
+                        <p class="form-wrapper-text">Ваш проект будет вести персональный менеджер
+                            «Умный дом» не мешает реализации любого дизайн-проекта</p>
+                        <input class="contact-form" type="tel" placeholder="Имя" name="" id="">
+                        <input class="contact-form" type="tel" placeholder="" id="phone">
+                        <input class="contact-form" id="Email" title="you have to enter a value" type="text"
+                            name="Email" placeholder="Почта">
+                        <form class="form-rules" ... onsubmit="return checkForm(this);">
+                            <p class="rules-form-check"><input id="field_terms"
+                                    onchange="this.setCustomValidity(validity.valueMissing ? '! Подтвердите согласие на обработку персональных данных' : '');"
+                                    type="checkbox" required name="terms"> Соглашаюсь на <span>обработку персональных
+                                    данных</span></p>
+                            <button class="contacts-button" type="submit">отправить<img class="arrow-img"
+                                    src="/img/Group 2066.svg" alt=""></button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="/intl-tel-input-17.0.0/build/js/intlTelInput.js"></script>
+<script>
+    let input = document.querySelector("#phone");
+    intlTelInput(input, {
+        initialCountry: "auto",
+        geoIpLookup: function (success, failure) {
+            $.get("https://ipinfo.io", function () {}, "jsonp").always(function (resp) {
+                var countryCode = (resp && resp.country) ? resp.country : "us";
+                success(countryCode);
+            });
+        },
+    });
+</script>
+<script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+<script src="/slider.js"></script>
+
+</html>
